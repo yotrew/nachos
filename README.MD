@@ -1,4 +1,5 @@
-## nachos-4.0 for Linux 64bits(ubuntu 24.04.3)
+## nachos-4.0 for Linux 64bits(Ubuntu 24.04.3)
+### It also works on Windows WSL2 (Ubuntu 24.04.1 LTS).
 1. sudo apt install git csh g++ make  
 2. sudo apt-get install gcc-multilib g++-multilib  
 3. git clone https://github.com/yotrew/nachos.git  
