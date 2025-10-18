@@ -12,8 +12,7 @@
 
 # if you are cross-compiling, you need to point to the right executables
 # and change the flags to ld and the build procedure for as
-#GCCDIR = /usr/local/nachos/decstation-ultrix/bin/
-GCCDIR = ../../usr/local/nachos/decstation-ultrix/bin/
+GCCDIR = /usr/local/nachos/decstation-ultrix/bin/
 LDFLAGS = -T script -N
 ASFLAGS = -mips2
 CPPFLAGS = $(INCDIR)
