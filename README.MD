@@ -27,3 +27,7 @@ Console I/O: reads 0, writes 0
 Paging: faults 0
 Network I/O: packets received 0, sent 0
 ```
+
+Ref:
+1. [在Windows 10中使用WSL2安裝NachOS](https://hackmd.io/@seanpeng12/HkrEHYsu5)
+2. [OS_HW1-2019](https://blog.nekowu.net/2019/10/10/2019-10-10-OS_HW1-2019/)
