@@ -1,12 +1,13 @@
 ## nachos-4.0 for Linux 64bits(ubuntu 24.04.3)
-1. sudo apt install git csh g++  
-2. git clone https://github.com/yotrew/nachos.git  
-3. change directory to nachos/
-   sudo cp -r usr /
-4. change directory to nachos/nachos-4.0/code  
-5. make  
-6. change directory to ./userprog  
-7. ./nachos -e ../test/test1
+1. sudo apt install git csh g++ make  
+2. sudo apt-get install gcc-multilib g++-multilib  
+3. git clone https://github.com/yotrew/nachos.git  
+4. change directory to nachos/  
+   sudo cp -r usr /  
+5. change directory to nachos/nachos-4.0/code  
+6. make  
+7. change directory to ./userprog  
+8. ./nachos -e ../test/test1  
    result:
 ```
 Total threads number is 1
