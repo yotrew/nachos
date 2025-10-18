@@ -1,17 +1,17 @@
 ## nachos-4.0 for Linux 64bits(Ubuntu 24.04.3)
 ### It also works on Windows WSL2 (Ubuntu 24.04.1 LTS).
-1. install tools,package,library
+1. install tools,package,library  
    sudo apt install git csh g++ make  
    sudo apt-get install gcc-multilib g++-multilib  
-2. clone nachos
+2. clone nachos  
    git clone https://github.com/yotrew/nachos.git  
-3. change directory to nachos/  #copy MIPS toolschian to /usr/
-   cd nachos
+3. change directory to nachos/  #copy MIPS toolschian to /usr/  
+   cd nachos  
    sudo cp -r usr /  
-4. change directory to nachos/nachos-4.0/code  #make
-   cd nachos/nachos-4.0/code
+4. change directory to nachos/nachos-4.0/code  #make  
+   cd nachos/nachos-4.0/code  
    make  
-5. change directory to ./userprog  #run a test program
+5. change directory to ./userprog  #run a test program  
    ./nachos -e ../test/test1  
 result:
 ```
